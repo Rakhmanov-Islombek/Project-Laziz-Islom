@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    border-bottom: 1px solid #222;
+}
+
+header h1 {
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #f0f0f0;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    gap: 40px;
+}
+
+header a {
+    text-decoration: none;
+    color: #888;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+}
+
+header a:hover {
+    color: #00ffcc;
+}
+
+header h1:hover {
+    color: #fff;
+    cursor: default;
+    transition: 0.5s;
+}
+.portfolio-text {
+    margin-top: 100px;
+}
+.portfolio-text h2 {
+    font-weight: 400;
+    font-size: 35px;
+}
+.portfolio-text h4 {
+    padding-top: 15px;
+}
+.portfolio-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio-img img {
+    width: 350px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.portfolio-text p {
+    padding-top: 15px;
+    line-height: 30px;
+}
