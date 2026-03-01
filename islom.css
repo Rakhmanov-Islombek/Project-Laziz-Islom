@@ -1,0 +1,149 @@
+
+
+.portfolio-text {
+    margin-top: 100px;
+}
+
+.portfolio-text h2 {
+    font-weight: 400;
+    font-size: 42px;
+}
+
+.portfolio-text h4 {
+    padding-top: 15px;
+}
+
+.portfolio-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-img img {
+    width: 350px;
+    margin-top: 120px;
+    border-radius: 50%;
+}
+
+.portfolio-text p {
+    padding-top: 15px;
+    line-height: 30px;
+    color: #777;
+}
+
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f1f3f2;
+    color: #4a4a4a;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: 1px solid #d1d1d1;
+    margin-top: 50px;
+}
+
+.envelope-icon {
+    margin-right: 12px;
+    font-size: 22px; 
+}
+
+.contact-button:hover {
+    background-color: #e2e2e2;
+}
+
+.skills-section {
+    margin: 100px auto;
+    max-width: 1100px;
+    padding: 60px 40px;
+    background-color: #000000;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+.skills-header {
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.skills-section > p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 25px;
+    border-bottom: 1px solid #1a1a1a;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.skill-item:last-child {
+    border-bottom: none;
+}
+
+.skill-left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.tech-tag {
+    background-color: #0a0a0a;
+    color: #4caf50;    
+    padding: 14px 28px; 
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #4caf50;
+    box-shadow: 0 0 20px rgba(76, 175, 80, 0.1);
+    min-width: 140px;
+    text-align: center;
+}
+
+.skill-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.skill-desc {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+.skill-info small {
+    font-size: 15px;
+    color: #555;
+    letter-spacing: 0.5px;
+}
+
+.skill-level {
+    color: #777;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.skill-item:hover {
+    background-color: rgba(76, 175, 80, 0.03);
+    padding-left: 45px;
+    border-radius: 15px;
+    transform: scale(1.01);
+}
+
+.skill-item:hover .tech-tag {
+    box-shadow: 0 0 25px rgba(76, 175, 80, 0.3);
+}
