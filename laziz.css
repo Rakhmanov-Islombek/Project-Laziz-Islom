@@ -56,26 +56,32 @@ header h1:hover {
     cursor: default;
     transition: 0.5s;
 }
+
 .portfolio-text {
     margin-top: 100px;
 }
+
 .portfolio-text h2 {
     font-weight: 400;
     font-size: 35px;
 }
+
 .portfolio-text h4 {
     padding-top: 15px;
 }
+
 .portfolio-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .portfolio-img img {
     width: 350px;
     margin-top: 70px;
     border-radius: 50%;
 }
+
 .portfolio-text p {
     padding-top: 15px;
     line-height: 30px;
@@ -94,7 +100,6 @@ header h1:hover {
     margin-left: 375px;
     margin-top: 50px;
 }
-
 
 .envelope-icon {
     margin-right: 12px;
