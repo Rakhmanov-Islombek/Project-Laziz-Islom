@@ -85,6 +85,7 @@ header h1:hover {
 .portfolio-text p {
     padding-top: 15px;
     line-height: 30px;
+    color: #777;
 }
 
 .contact-button {
