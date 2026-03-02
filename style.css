@@ -104,3 +104,11 @@ header h1:hover {
 .contact-button:hover {
     background-color: #e2e2e2;
 }
+.made-by {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.made-by a {
+    color: #fff;
+}

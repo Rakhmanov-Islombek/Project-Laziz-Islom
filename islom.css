@@ -206,3 +206,11 @@ header h1:hover {
 .skill-item:hover .tech-tag {
     box-shadow: 0 0 25px rgba(76, 175, 80, 0.3);
 }
+.made-by {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.made-by a {
+    color: #fff;
+}
